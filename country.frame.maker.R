@@ -19,7 +19,7 @@ kuntry <- function(name, birth, death) {
 
 africa <- rbind(kuntry("Algeria", 1962, 9999),
                 kuntry("Angola", 1975, 9999),
-                kuntry("Benin", 1960, 9999)
+                kuntry("Benin", 1960, 9999),
                 kuntry("Botswana", 1966, 9999),
                 kuntry("Burkina Faso", 1960, 9999),
                 kuntry("Burundi", 1962, 9999),
