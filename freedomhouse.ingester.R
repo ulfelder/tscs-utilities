@@ -24,5 +24,5 @@ dat_m <- cbind(dat_m, colsplit(dat_m$variable, "_", names = c('indicator', 'year
 dat_m$variable = NULL
 
 # Write file to wd in .csv format
-write.csv(dat_m, paste("fhfiw", as.character(substr(Sys.Date(),1,4)), "csv", sep="."), header = TRUE)
+write.csv(dat_m, paste("fhfiw", as.character(substr(Sys.Date(),1,4)), "csv", sep="."), row.names = FALSE)
 unlink(temp)
