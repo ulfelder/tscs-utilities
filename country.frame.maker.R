@@ -329,3 +329,4 @@ data$region[data$reg.amr==1] <- "Americas"
 # Rename country name variable to play better with other utilities
 require(reshape)
 data <- rename(data, c(country="name"))
+rm(global, kuntry)
