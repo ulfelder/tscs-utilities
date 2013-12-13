@@ -2,9 +2,9 @@
 
 # download report in xls format
 require(downloader)
-target <- paste("http:///www.freedomhouse.org/sites/default/files/Country%20Status%20and%20Ratings%2C%201973-",
+target <- paste("http:///www.freedomhouse.org/sites/default/files/Country%20Status%20By%Year%2C%20FIW%201973-",
                 as.character(substr(Sys.Date(),1,4)),
-                "%20%28FINAL%29_0.xls")
+                ".xls", sep="")
 temp <- tempfile()
 download(target, temp)
 
